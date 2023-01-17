@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Georgii Tsabiev](https://up.htmlacademy.ru/htmlcss/36/user/2277251).
-* Наставник: [Дмитрий 😼 Железцов](https://htmlacademy.ru/profile/sench).
+* Наставник: [Дмитрий (sench)😼 Железцов](https://htmlacademy.ru/profile/sench).
 
 ---
 

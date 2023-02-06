@@ -60,12 +60,15 @@ body {
   background-repeat: no-repeat;
 }
 
+.description-sedona {
+  text-align: center;
+}
+
 .description-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   color:#000000;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -74,15 +77,15 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
 }
+
+
 
 .advantages-description {
   color:#333333;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-
 }
 
 .advantages-title-first {
@@ -92,7 +95,6 @@ body {
 
 .advantages-title {
   color: #000000;
-
 }
 
 .advantages-item-first {
@@ -101,9 +103,119 @@ body {
 
 .advantages-title-evil-bridge {
   color: #ffffff;
-
 }
 
 .advantages-item-evil-bridge {
   background-color: #81b3d3;
+}
+
+.invitation-title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.invitation-text {
+  color: #333333;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.invitation-to-sedona {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.advantages-item {
+  text-align: center;
+}
+
+.advantages-item-house {
+  background-color: rgba(131, 179, 211, 0.12);
+  text-align: center;
+}
+
+.advantages-item-souvenir {
+  background-color: rgba(131, 179, 211, 0.12);
+  text-align: center;
+}
+
+.search-hotels {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+.search-hotels-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.search-hotels-text {
+  color:#333333;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-search-hotels {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px 50px;
+  width: 1200px;
+  height: 415px;
+  border-radius: 4px;
+}
+
+.newsletter {
+  background: url(../images/newsletter-background.jpg);
+  width: 1200px;
+  height: 415px;
+  text-align: center;
+}
+
+.newsletter-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  padding-top: 96px;
+
+}
+
+.newsletter-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.field {
+  background-color: #F2F2F2;
+  width: 452px;
+  height: 52px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.newsletter-button {
+  background-color: #82B3D3;
+  border-radius: 0px 4px 4px 0px;
+  padding: 8px 50px;
+  height: 52px;
+}
+
+.button-subscribe-text {
+  width: 132px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
 }

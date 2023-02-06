@@ -18,20 +18,13 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
-  background-color: white;
+  background-color: #f2f2f2;
   color: black;
 }
 
 .main-header {
   background-color: white;
   color: black;
-}
-
-.navigation-logo {
-  margin-left: 70px;
-  margin-top: 64px;
-  margin-right: 990px;
-  margin-bottom: 479px;
 }
 
 .navigation-link {
@@ -51,17 +44,11 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 8px 50px;
-  width: 160px;
-  height: 36px;
   border-radius: 4px;
-
 }
 
 .button {
   background-color: #756157;
   color:#ffffff;
 }
-
-
-
 

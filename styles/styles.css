@@ -14,3 +14,54 @@
   font-display: swap;
 }
 
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: white;
+  color: black;
+}
+
+.main-header {
+  background-color: white;
+  color: black;
+}
+
+.navigation-logo {
+  margin-left: 70px;
+  margin-top: 64px;
+  margin-right: 990px;
+  margin-bottom: 479px;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  color:#000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.header-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px 50px;
+  width: 160px;
+  height: 36px;
+  border-radius: 4px;
+
+}
+
+.button {
+  background-color: #756157;
+  color:#ffffff;
+}
+
+
+
+

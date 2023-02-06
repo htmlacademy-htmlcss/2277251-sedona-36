@@ -172,7 +172,10 @@ body {
 }
 
 .newsletter {
-  background: url(../images/newsletter-background.jpg);
+  background-image: url(../images/newsletter-background.jpg);
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-color: #000000;
   width: 1200px;
   height: 415px;
   text-align: center;

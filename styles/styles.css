@@ -93,6 +93,11 @@ body {
   margin: 0 auto;
 }
 
+.hero {
+  width: 1200px;
+  height: 485px;
+}
+
 .description-sedona {
   text-align: center;
 }

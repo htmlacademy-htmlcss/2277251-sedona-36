@@ -38,6 +38,23 @@ body {
   color: #000000;
 }
 
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 450px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 132px;
+  margin-left: auto;
+}
+
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
@@ -69,6 +86,11 @@ body {
   background-image: url(../images/index-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.page-container {
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .description-sedona {

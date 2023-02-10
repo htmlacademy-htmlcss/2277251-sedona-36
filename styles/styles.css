@@ -151,6 +151,12 @@ body {
 }
 
 /* ADVANTAGES */
+.advantages-list {
+  padding: 0;
+  margin: 0;
+
+}
+
 .advantages-description-first {
   color: #ffffff;
   font-weight: 400;
@@ -193,9 +199,25 @@ body {
 
 }
 
-.advantages-second-wrapper {
+
+
+.advantages-list-first {
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
+}
+
+.advantages-list-second {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.adventages-list-bridge {
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -254,6 +276,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  margin-top: 64px;
 }
 
 .invitation-text {
@@ -273,6 +296,7 @@ body {
   align-items: center;
   background-color: #ffffff;
   text-align: center;
+
 }
 
 .advantages-item-road {
@@ -295,7 +319,13 @@ body {
 }
 
 .advantages-item-house {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 385px;
+  background-color: rgba(131, 179, 211, 0.12);
   text-align: center;
 }
 
@@ -341,7 +371,12 @@ body {
   flex-direction: row;
 }
 
+/* Секция "Заинтересовались? */
+
 .search-hotels {
+  width: 1200px;
+  height: 406px;
+
   background-color: #ffffff;
   color: #000000;
   text-align: center;
@@ -351,13 +386,19 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  padding-top: 95px;
 }
 
 .search-hotels-text {
+  text-align: center;
   color:#333333;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  width: 592px;
+  height: 52px;
+  margin-left: 304px;
+  margin-bottom: 54px;
 }
 
 .button-search-hotels {
@@ -368,8 +409,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 8px 50px;
-  width: 1200px;
-  height: 415px;
+  width: 376px;
+  height: 52px;
   border-radius: 4px;
 }
 
@@ -385,6 +426,12 @@ body {
   text-align: center;
 }
 
+.newsletter-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .newsletter-title {
   font-weight: 700;
   font-size: 30px;
@@ -398,20 +445,26 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  width: 475px;
+  margin-right: 362px;
+  margin-left: 362px;
 }
 
 .field {
   background-color: #F2F2F2;
   width: 452px;
   height: 52px;
+  border: none;
   border-radius: 4px 0px 0px 4px;
+
 }
 
 .newsletter-button {
   background-color: #82B3D3;
+  border: none;
+  height: 54px;
   border-radius: 0px 4px 4px 0px;
   padding: 8px 50px;
-  height: 52px;
 }
 
 .button-subscribe-text {

@@ -94,7 +94,7 @@ body {
 }
 
 .page-container {
-  width: 1060px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -151,8 +151,17 @@ body {
 }
 
 /* ADVANTAGES */
+.advantages-description-first {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
 
 .advantages-description {
+  width: 230px;
+  text-align: center;
   color:#333333;
   font-weight: 400;
   font-size: 18px;
@@ -162,6 +171,7 @@ body {
 .advantages-title-first {
   color: #ffffff;
   font-weight: 700;
+
 }
 
 .advantages-title {
@@ -169,10 +179,67 @@ body {
 }
 
 .advantages-item-first {
+  display: flex;
+  width: 1200px;
+  height: 385px;
   background-color: #81b3d3;
 }
 
+.advantages-town-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.advantages-second-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.advantages-item-square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(131, 179, 211, 0.12);;
+  width: 400px;
+  height: 385px;
+}
+
+.advantages-item-evil-bridge {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 1200px;
+  height: 385px;
+}
+
+.advantages-bridge-wrapper {
+  text-align: center;
+  width: 400px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages-description-bridge {
+  width: 230px;
+  height: 63px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color:#ffffff;
+}
+
 .advantages-title-evil-bridge {
+  text-align: center;
+  width: 175px;
+  height: 56px;
   color: #ffffff;
 }
 
@@ -181,6 +248,8 @@ body {
 }
 
 .invitation-title {
+  width: 505px;
+  height: 72px;
   color: #000000;
   font-weight: 700;
   font-size: 30px;
@@ -188,6 +257,9 @@ body {
 }
 
 .invitation-text {
+  text-align: center;
+  width: 490px;
+  height: 26px;
   color: #333333;
   font-weight: 400;
   font-size: 22px;
@@ -195,22 +267,78 @@ body {
 }
 
 .invitation-to-sedona {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #ffffff;
   text-align: center;
 }
 
-.advantages-item {
-  text-align: center;
+.advantages-item-road {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(131, 179, 211, 0.2);
+  width: 400px;
+  height: 385px;
+}
+.advantages-item-tourists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(131, 179, 211, 0.12);
+  width: 400px;
+  height: 385px;
 }
 
 .advantages-item-house {
-  background-color: rgba(131, 179, 211, 0.12);
+
   text-align: center;
 }
 
 .advantages-item-souvenir {
-  background-color: rgba(131, 179, 211, 0.12);
   text-align: center;
+}
+
+/* Блок с преимуществами - Жильё и т.д */
+
+.advantages-housing-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 385px;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-food-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 385px;
+}
+
+.advantages-souvenir-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 385px;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-third-wrapper {
+  display: flex;
+  flex-direction: row;
 }
 
 .search-hotels {

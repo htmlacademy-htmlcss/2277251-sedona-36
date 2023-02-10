@@ -110,14 +110,17 @@ body {
   margin-left: 472px;
 }
 
-.description-sedona {
-  text-align: center;
-}
-
 .hero-img {
   margin-top: 54px;
   margin-right: 372px;
   margin-left: 371px;
+}
+
+.description-sedona {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .description-title {
@@ -126,6 +129,11 @@ body {
   line-height: 36px;
   color:#000000;
   text-transform: uppercase;
+  width: 620px;
+  height: 72px;
+  margin-top: 69px;
+  text-align: center;
+
 }
 
 .description-text {
@@ -133,6 +141,8 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  width: 651px;
+  height: 26px;
 }
 
 .advantages-description {

@@ -1,3 +1,4 @@
+/* FONTS */
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -28,6 +29,8 @@ body {
   line-height: 28px;
   color: #000000;
 }
+
+/* HEADER */
 
 .main-container {
   flex-grow: 1;
@@ -79,6 +82,8 @@ body {
   background-color: #756157;
   color:#ffffff;
 }
+
+/* MAIN */
 
 .main-index {
   color: #ffffff;
@@ -144,6 +149,8 @@ body {
   width: 651px;
   height: 26px;
 }
+
+/* ADVANTAGES */
 
 .advantages-description {
   color:#333333;
@@ -238,6 +245,8 @@ body {
   border-radius: 4px;
 }
 
+/* NEWSLETTER */
+
 .newsletter {
   background-image: url(../images/newsletter-background.jpg);
   background-repeat: no-repeat;
@@ -286,6 +295,8 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+/* FOOTER */
 
 .main-footer {
   width: 1200px;

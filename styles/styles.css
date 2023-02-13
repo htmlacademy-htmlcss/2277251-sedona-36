@@ -30,6 +30,17 @@ body {
   color: #000000;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* HEADER */
 
 .main-container {
@@ -453,7 +464,6 @@ body {
 .field {
   background-color: #F2F2F2;
   width: 452px;
-  height: 52px;
   border: none;
   border-radius: 4px 0px 0px 4px;
 
@@ -462,7 +472,6 @@ body {
 .newsletter-button {
   background-color: #82B3D3;
   border: none;
-  height: 54px;
   border-radius: 0px 4px 4px 0px;
   padding: 8px 50px;
 }

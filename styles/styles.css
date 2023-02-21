@@ -231,6 +231,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: row;
+  list-style-type: none;
 }
 
 .advantages-list-second {
@@ -238,6 +239,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: row;
+  list-style-type: none;
 }
 
 .adventages-list-bridge {

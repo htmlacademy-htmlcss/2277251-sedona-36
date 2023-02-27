@@ -392,11 +392,6 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-third-wrapper {
-  display: flex;
-  flex-direction: row;
-}
-
 /* Секция "Заинтересовались? */
 
 .search-hotels {

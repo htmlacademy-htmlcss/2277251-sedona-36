@@ -51,6 +51,11 @@ body {
 .main-header {
   background-color: #fff;
   color: #000000;
+  height: 64px;
+}
+
+.navigation-logo {
+  z-index: 1;
 }
 
 .navigation {
@@ -65,6 +70,20 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.navigation-link-current {
+  position: relative;
+}
+
+.navigation-link-current::after {
+  position: absolute;
+  content: "";
+  right: 16px;
+  left: 16px;
+  bottom: 0;
+  height: 2px;
+  background-color: #756257;
 }
 
 .navigation-user {
@@ -86,7 +105,6 @@ body {
   font-weight: 700;
   font-size: 20px;
   color:#000000;
-  background-color: #ffffff;
   text-decoration: none;
 }
 
@@ -134,10 +152,10 @@ body {
   margin-top: 51px;
   margin-right: 506px;
   margin-left: 506px;
+  margin-bottom: 6px;
 }
 
 .to-the-gorgeous-img {
-  margin-top: 11px;
   margin-right: 472px;
   margin-left: 472px;
 }

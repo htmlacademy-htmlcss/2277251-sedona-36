@@ -66,11 +66,7 @@ body {
   background-color: #68B738;;
   text-align: center;
   line-height: 20px;
-
-
-
 }
-
 
 .navigation-item-button {
   margin-bottom: 8px;
@@ -174,8 +170,6 @@ body {
   background-image: url("../images/divider-main.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-
-
 }
 
 .welcome-img {
@@ -213,7 +207,6 @@ body {
   height: 72px;
   margin-top: 69px;
   text-align: center;
-
 }
 
 .description-text {
@@ -249,7 +242,6 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-
 }
 
 .advantages-title-first {
@@ -257,7 +249,6 @@ body {
   text-align: center;
   color: #ffffff;
   font-weight: 700;
-
 }
 
 .advantages-title-first:after {
@@ -279,7 +270,6 @@ body {
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .advantages-title {
@@ -313,7 +303,6 @@ body {
   height: 385px;
   justify-content: center;
   align-items: center;
-
 }
 
 .advantages-list-first {
@@ -417,7 +406,6 @@ body {
   background-color: #ffffff;
   text-align: center;
   margin-bottom: 64px;
-
 }
 
 .advantages-item-road {
@@ -488,7 +476,6 @@ body {
 .search-hotels {
   width: 1200px;
   height: 406px;
-
   background-color: #ffffff;
   color: #000000;
   text-align: center;
@@ -552,7 +539,6 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   padding-top: 96px;
-
 }
 
 .newsletter-text {

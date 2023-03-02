@@ -224,11 +224,12 @@ body {
 .advantages-title-first {
   color: #ffffff;
   font-weight: 700;
-
 }
 
 .advantages-title {
   color: #000000;
+  width: 175px;
+  text-align: center;
 }
 
 .advantages-item-first {

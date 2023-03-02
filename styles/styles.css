@@ -584,12 +584,11 @@ body {
 
 .main-footer-container {
   display: grid;
-  grid-template-columns: 142px 720px 115px;
+  grid-template-columns: 142px 331px 115px;
   justify-content: space-between;
   align-items: center;
   width: 1060px;
   height: 50px;
-
   padding: 40px 70px 30px 70px;
 }
 
@@ -598,6 +597,7 @@ body {
 }
 
 .footer-tel {
+
   color: #000000;
   font-weight: 400;
   font-size: 40px;

@@ -205,6 +205,7 @@ body {
 }
 
 .advantages-description-first {
+  width: 230px;
   color: #ffffff;
   font-weight: 400;
   font-size: 18px;
@@ -219,9 +220,12 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+
 }
 
 .advantages-title-first {
+  width: 175px;
+  text-align: center;
   color: #ffffff;
   font-weight: 700;
 }
@@ -242,9 +246,10 @@ body {
 .advantages-town-wrapper {
   display: flex;
   flex-direction: column;
+  width: 400px;
+  height: 385px;
   justify-content: center;
   align-items: center;
-
 }
 
 .advantages-list-first {
@@ -288,13 +293,15 @@ body {
 }
 
 .advantages-bridge-wrapper {
-  text-align: center;
+  width: 400px;
+  height: 385px;
   width: 400px;
   height: 385px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .advantages-description-bridge {

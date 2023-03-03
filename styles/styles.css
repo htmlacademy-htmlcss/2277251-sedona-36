@@ -150,13 +150,13 @@ body {
 .main-index {
   color: #ffffff;
   background-color: #ffffff;
-  background-image: url(../images/index-background.jpg);
+  background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
 .main-index:after {
-  background-image: url(../images/divider-main.svg);
+  background-image: url("../images/divider-main.svg");
 }
 
 .page-container {
@@ -518,7 +518,7 @@ body {
 /* NEWSLETTER */
 
 .newsletter {
-  background-image: url(../images/newsletter-background.jpg);
+  background-image: url("../images/newsletter-background.jpg");
   background-repeat: no-repeat;
   color: #ffffff;
   background-color: #000000;

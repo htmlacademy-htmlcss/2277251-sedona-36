@@ -31,6 +31,14 @@ body {
   color: #000000;
 }
 
+.reset-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -305,27 +313,10 @@ body {
   align-items: center;
 }
 
-.advantages-list-first {
-  padding: 0;
+ .adventages-list-bridge reset-list h3, p {
   margin: 0;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
-.advantages-list-second {
   padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
-.adventages-list-bridge {
-  padding: 0;
-  margin: 0;
-}
-
+ }
 
 .advantages-item-square {
   display: flex;

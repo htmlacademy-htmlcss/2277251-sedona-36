@@ -612,6 +612,68 @@ body {
   text-decoration: none;
 }
 
+/* Состояния элементов */
+
+.navigation-icon-vk:hover {  /* < Иконка Вконтакте */
+  fill: #68A2CA;
+}
+
+.navigation-icon-vk:focus {
+  fill:#68A2CA;
+}
+
+.navigation-icon-vk:active {
+  fill: rgba(104, 162, 202, 0.3);
+}
+
+.navigation-icon-telegram:hover {  /* < Иконка Телеграм */
+  fill: #68A2CA;
+}
+
+.navigation-icon-telegram:focus {
+  fill:#68A2CA;
+}
+
+.navigation-icon-telegram:active {
+  fill: rgba(104, 162, 202, 0.3);;
+}
+
+.navigation-icon-youtube:hover {  /* < Иконка Ютуба */
+  fill: #68A2CA;
+}
+
+.navigation-icon-youtube:focus {
+  fill: #68A2CA;
+}
+
+.navigation-icon-youtube:active {
+  fill: rgba(104, 162, 202, 0.3);;
+}
+
+.footer-tel:hover {   /* < Телефон */
+  color: #756157;
+}
+
+.footer-tel:focus {
+  color: #756157;
+}
+
+.footer-tel:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.html-academy-icon:hover {  /* < Иконка HtmlAcademy */
+  fill: #756157;
+}
+
+.html-academy-icon:focus {
+  fill: #756157;
+}
+
+.html-academy-icon:active {
+  fill: rgba(117, 97, 87, 0.3);
+}
+
 .footer-social-list {
   display: grid;
   grid-template-columns: 48px 48px 48px;
@@ -619,6 +681,10 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;;
+}
+
+.footer-social-list li:last-child {
+  line-height: 31px;
 }
 
 .footer-social-item {

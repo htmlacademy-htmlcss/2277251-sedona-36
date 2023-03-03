@@ -31,7 +31,7 @@ body {
   color: #000000;
 }
 
-.reset-list {
+.reset-list {  /* Для всех списков */
   display: flex;
   flex-direction: row;
   padding: 0;
@@ -228,6 +228,7 @@ body {
 }
 
 /* ADVANTAGES */
+
 .advantages-list {
   padding: 0;
   margin: 0;
@@ -269,6 +270,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
 .advantages-title-evil-bridge::after {
   display: block;
   width: 60px;
@@ -312,11 +314,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
- .adventages-list-bridge reset-list h3, p {
-  margin: 0;
-  padding: 0;
- }
 
 .advantages-item-square {
   display: flex;
@@ -591,7 +588,6 @@ body {
 }
 
 .footer-tel {
-
   color: #000000;
   font-weight: 400;
   font-size: 40px;
@@ -678,10 +674,6 @@ body {
 
 .footer-social-item {
   padding: 0 10px;
-}
-
-.footer-social-item-youtube {
-  display: block;
 }
 
 .button-socials-youtube {

@@ -625,6 +625,21 @@ body {
   color:rgba(255, 255, 255, 0.3);
 }
 
+.newsletter-button:hover {
+  background-color: #68A2CA;
+}
+
+.newsletter-button:focus{
+  background-color: #68A2CA;
+}
+
+.newsletter-button:active {
+  background-color:#82B3D3;
+}
+
+.button-subscribe-text:active {
+  color:rgba(255, 255, 255, 0.3);
+}
 
 .navigation-icon-vk:hover {  /* < Иконка Вконтакте */
   fill: #68A2CA;

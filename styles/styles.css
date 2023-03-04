@@ -620,6 +620,10 @@ body {
   background-color: #615048;
 }
 
+.page-container {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
 .button-search-hotels:active {
   background-color: #756157;
   color:rgba(255, 255, 255, 0.3);

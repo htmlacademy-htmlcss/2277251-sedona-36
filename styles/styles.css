@@ -31,6 +31,10 @@ body {
   color: #000000;
 }
 
+.page-container {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
 .reset-list {  /* Для всех списков */
   display: flex;
   flex-direction: row;
@@ -165,11 +169,6 @@ body {
 
 .main-index:after {
   background-image: url("../images/divider-main.svg");
-}
-
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .hero {
@@ -618,10 +617,6 @@ body {
 
 .button-search-hotels:focus {
   background-color: #615048;
-}
-
-.page-container {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .button-search-hotels:active {

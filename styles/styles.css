@@ -87,6 +87,7 @@ body {
 .navigation {
   display: flex;
   width: 1060px;
+  height: 64px;
   margin: 0 auto;
 }
 
@@ -124,12 +125,8 @@ body {
   margin-left: auto;
 }
 
-.navigation-user .navigation-link {
-  min-width: 16px;
-  min-height: 22px;
-}
-
 .navigation-link {
+  height: 27px;
   display: block;
   padding: 20px 16px;
   font-weight: 700;

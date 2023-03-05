@@ -164,10 +164,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.main-index:after {
-  background-image: url("../images/divider-main.svg");
-}
-
 .hero {
   width: 1200px;
   height: 485px;

@@ -594,7 +594,7 @@ body {
 
 /* Состояния элементов */
 
-.navigation-link:hover {
+.navigation-link:hover {   /* < Элементы главной навигации */
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -606,7 +606,7 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.header-button:hover {
+.header-button:hover {  /*  < Кнопка Хочу Сюда */
   background-color: #615048;
 }
 
@@ -619,7 +619,7 @@ body {
   color:rgba(255, 255, 255, 0.3);
 }
 
-.button-search-hotels:hover {
+.button-search-hotels:hover {  /*  < Кнопка "Поиск гостиницы в Седоне" */
   background-color: #615048;
 }
 
@@ -632,7 +632,7 @@ body {
   color:rgba(255, 255, 255, 0.3);
 }
 
-.newsletter-button:hover {
+.newsletter-button:hover {   /*  < Голубая кнопка подписаться  */
   background-color: #68A2CA;
 }
 

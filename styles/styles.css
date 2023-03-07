@@ -529,9 +529,12 @@ body {
   width: 475px;
   margin-right: 362px;
   margin-left: 362px;
+  margin-bottom: 54px;
 }
 
 .field {
+  font-family: "PT Sans" sans-serif;
+  font-size: 18px;
   background-color: #F2F2F2;
   width: 452px;
   border: none;

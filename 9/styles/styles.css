@@ -31,6 +31,18 @@ body {
   color: #000000;
 }
 
+.page-container {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.reset-list {  /* Для всех списков */
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -52,6 +64,7 @@ body {
 
 .navigation-logo {
   z-index: 1;
+  margin-right: 44px;
 }
 
 .notification-badge {
@@ -59,7 +72,7 @@ body {
   color: #ffffff;
   width: 20px;
   top: 11px;
-  left: 945px;
+  left: 24px;
   font-weight: 400;
   font-size: 10px;
   border-radius: 50%;
@@ -75,12 +88,14 @@ body {
 .navigation {
   display: flex;
   width: 1060px;
+  height: 64px;
   margin: 0 auto;
 }
 
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
+  width: 450px;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -108,16 +123,13 @@ body {
   display: flex;
   align-items: center;
   padding: 0px;
-  min-width: 268px;
+  max-width: 284px;
   margin-left: auto;
 }
 
-.navigation-user .navigation-link {
-  min-width: 16px;
-  min-height: 22px;
-}
-
 .navigation-link {
+  position: relative;
+  height: 27px;
   display: block;
   padding: 20px 16px;
   font-weight: 700;
@@ -150,18 +162,9 @@ body {
 .main-index {
   color: #ffffff;
   background-color: #ffffff;
-  background-image: url(../images/index-background.jpg);
+  background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-}
-
-.main-index:after {
-  background-image: url(../images/divider-main.svg);
-}
-
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .hero {
@@ -220,6 +223,7 @@ body {
 }
 
 /* ADVANTAGES */
+
 .advantages-list {
   padding: 0;
   margin: 0;
@@ -261,6 +265,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
 .advantages-title-evil-bridge::after {
   display: block;
   width: 60px;
@@ -305,28 +310,6 @@ body {
   align-items: center;
 }
 
-.advantages-list-first {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
-.advantages-list-second {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
-.adventages-list-bridge {
-  padding: 0;
-  margin: 0;
-}
-
-
 .advantages-item-square {
   display: flex;
   flex-direction: column;
@@ -346,8 +329,6 @@ body {
 }
 
 .advantages-bridge-wrapper {
-  width: 400px;
-  height: 385px;
   width: 400px;
   height: 385px;
   display: flex;
@@ -370,7 +351,7 @@ body {
 .advantages-title-evil-bridge {
   margin: 0;
   text-align: center;
-  width: 175px;
+  width: 167px;
   color: #ffffff;
 }
 
@@ -518,7 +499,7 @@ body {
 /* NEWSLETTER */
 
 .newsletter {
-  background-image: url(../images/newsletter-background.jpg);
+  background-image: url("../images/newsletter-background.jpg");
   background-repeat: no-repeat;
   color: #ffffff;
   background-color: #000000;
@@ -548,9 +529,12 @@ body {
   width: 475px;
   margin-right: 362px;
   margin-left: 362px;
+  margin-bottom: 54px;
 }
 
 .field {
+  font-family: "PT Sans" sans-serif;
+  font-size: 18px;
   background-color: #F2F2F2;
   width: 452px;
   border: none;
@@ -602,7 +586,6 @@ body {
 }
 
 .footer-tel {
-
   color: #000000;
   font-weight: 400;
   font-size: 40px;
@@ -613,6 +596,60 @@ body {
 }
 
 /* Состояния элементов */
+
+.navigation-link:hover {   /* < Элементы главной навигации */
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.navigation-link:focus {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.navigation-link:active {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.header-button:hover {  /*  < Кнопка Хочу Сюда */
+  background-color: #615048;
+}
+
+.header-button:focus {
+  background-color: #615048;
+}
+
+.header-button:active {
+  background-color: #756157;
+  color:rgba(255, 255, 255, 0.3);
+}
+
+.button-search-hotels:hover {  /*  < Кнопка "Поиск гостиницы в Седоне" */
+  background-color: #615048;
+}
+
+.button-search-hotels:focus {
+  background-color: #615048;
+}
+
+.button-search-hotels:active {
+  background-color: #756157;
+  color:rgba(255, 255, 255, 0.3);
+}
+
+.newsletter-button:hover {   /*  < Голубая кнопка подписаться  */
+  background-color: #68A2CA;
+}
+
+.newsletter-button:focus{
+  background-color: #68A2CA;
+}
+
+.newsletter-button:active {
+  background-color:#82B3D3;
+}
+
+.button-subscribe-text:active {
+  color:rgba(255, 255, 255, 0.3);
+}
 
 .navigation-icon-vk:hover {  /* < Иконка Вконтакте */
   fill: #68A2CA;
@@ -689,10 +726,6 @@ body {
 
 .footer-social-item {
   padding: 0 10px;
-}
-
-.footer-social-item-youtube {
-  display: block;
 }
 
 .button-socials-youtube {

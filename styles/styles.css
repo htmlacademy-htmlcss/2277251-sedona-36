@@ -474,23 +474,27 @@ body {
 /* Секция "Заинтересовались? */
 
 .search-hotels {
-  width: 1200px;
-  height: 406px;
+  padding: 96px 304px;
   background-color: #ffffff;
   color: #000000;
   text-align: center;
 }
 
 .search-hotels-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  padding-top: 95px;
   text-align: center;
   text-transform: uppercase;
 }
 
 .search-hotels-text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 54px;
   text-align: center;
   color:#333333;
   font-weight: 400;
@@ -498,11 +502,10 @@ body {
   line-height: 26px;
   width: 592px;
   height: 52px;
-  margin-left: 304px;
-  margin-bottom: 54px;
 }
 
 .button-search-hotels {
+  display: inline-block;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -510,8 +513,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 8px 50px;
-  width: 376px;
-  height: 52px;
   border-radius: 4px;
   background-color: #756157;
   color: #ffffff;
@@ -536,6 +537,7 @@ body {
 }
 
 .newsletter-title {
+  margin: 0;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;

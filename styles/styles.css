@@ -257,7 +257,10 @@ body {
   width: 175px;
   text-align: center;
   color: #ffffff;
+  font-size: 24px;
   font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
 }
 
 .advantages-title-first:after {
@@ -283,9 +286,12 @@ body {
 }
 
 .advantages-title {
+  font-size: 24px;
+  font-weight: 700;
   color: #000000;
   width: 175px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .advantages-list-first .advantages-title:after {
@@ -354,10 +360,13 @@ body {
 }
 
 .advantages-title-evil-bridge {
+  font-size: 24px;
+  font-weight: 700;
   margin: 0;
   text-align: center;
-  width: 167px;
+  width: 172px;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .advantages-item-evil-bridge {

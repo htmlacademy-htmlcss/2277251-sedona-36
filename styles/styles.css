@@ -357,6 +357,7 @@ body {
   line-height: 21px;
   color:#ffffff;
   margin-top: 28px;
+  margin-bottom: 0;
 }
 
 .advantages-title-evil-bridge {
@@ -380,10 +381,14 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  margin-top: 64px;
+  margin: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .invitation-text {
+  margin: 0;
+  padding: 0;
   text-align: center;
   width: 490px;
   height: 26px;
@@ -394,13 +399,13 @@ body {
 }
 
 .invitation-to-sedona {
+  padding: 64px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
   text-align: center;
-  margin-bottom: 64px;
 }
 
 .advantages-item-road {

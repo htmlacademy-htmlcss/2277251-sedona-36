@@ -467,6 +467,8 @@ body {
   font-size: 30px;
   line-height: 36px;
   padding-top: 95px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .search-hotels-text {
@@ -540,7 +542,6 @@ body {
   border: none;
   border-radius: 4px 0px 0px 4px;
   padding-left: 20px;
-
 }
 
 .newsletter-button {

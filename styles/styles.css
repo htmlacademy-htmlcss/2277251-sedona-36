@@ -198,9 +198,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 69px 0px;
+  margin-bottom: 20px;
 }
 
 .description-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -208,18 +213,18 @@ body {
   text-transform: uppercase;
   width: 620px;
   height: 72px;
-  margin-top: 69px;
   text-align: center;
 }
 
 .description-text {
+  margin: 0;
+  padding: 0;
   color: #333333;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   width: 651px;
   height: 26px;
-  margin-bottom: 69px;
 }
 
 /* ADVANTAGES */

@@ -186,7 +186,7 @@ body {
 }
 
 .hero-img {
-  margin-top: 50px;
+  margin-top: 48px;
   margin-right: 372px;
   margin-left: 371px;
 }
@@ -285,7 +285,41 @@ body {
   margin-left: auto;
 }
 
+.advantages-title-housing {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  width: 175px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-title-food {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  width: 175px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-title-souvenir {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  width: 175px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .advantages-title {
+  margin-top: 30px;
   margin: 0;
   font-size: 24px;
   font-weight: 700;
@@ -611,7 +645,7 @@ body {
   padding: 40px 70px 30px 70px;
 }
 
-.html-academy-img {
+.html-academy-icon {
   display: block;
 }
 
@@ -756,6 +790,7 @@ body {
 
 .footer-social-item {
   padding: 0 10px;
+  text-align: center;
 }
 
 .button-socials-youtube {

@@ -704,6 +704,11 @@ body {
   color:rgba(255, 255, 255, 0.3);
 }
 
+.field:disabled {
+  background-color: #dcdcdc;
+
+}
+
 .newsletter-button:hover {   /*  < Голубая кнопка подписаться  */
   background-color: #68A2CA;
 }
@@ -718,6 +723,11 @@ body {
 
 .button-subscribe-text:active {
   color:rgba(255, 255, 255, 0.3);
+}
+
+.newsletter-button:disabled {
+  background-color: #c0c0c0;
+  cursor: auto;
 }
 
 .navigation-icon-vk:hover {  /* < Иконка Вконтакте */

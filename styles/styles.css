@@ -682,7 +682,7 @@ body {
 
 /* Состояния элементов */
 
-.navigation-link:hover {   /* < Элементы главной навигации */
+.navigation-link:hover {   /* Элементы главной навигации */
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -694,7 +694,7 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.header-button:hover {  /*  < Кнопка Хочу Сюда */
+.header-button:hover {  /*  Кнопка Хочу Сюда */
   background-color: #615048;
 }
 
@@ -707,7 +707,7 @@ body {
   color:rgba(255, 255, 255, 0.3);
 }
 
-.button-search-hotels:hover {  /*  < Кнопка "Поиск гостиницы в Седоне" */
+.button-search-hotels:hover {  /*  Кнопка "Поиск гостиницы в Седоне" */
   background-color: #615048;
 }
 
@@ -725,7 +725,7 @@ body {
 
 }
 
-.newsletter-button:hover {   /*  < Голубая кнопка подписаться  */
+.newsletter-button:hover {   /*  Голубая кнопка подписаться  */
   background-color: #68A2CA;
 }
 
@@ -746,7 +746,7 @@ body {
   cursor: auto;
 }
 
-.navigation-icon-vk:hover {  /* < Иконка Вконтакте */
+.navigation-icon-vk:hover {  /* Иконка Вконтакте */
   fill: #68A2CA;
 }
 
@@ -758,7 +758,7 @@ body {
   fill: rgba(104, 162, 202, 0.3);
 }
 
-.navigation-icon-telegram:hover {  /* < Иконка Телеграм */
+.navigation-icon-telegram:hover {  /* Иконка Телеграм */
   fill: #68A2CA;
 }
 
@@ -770,7 +770,7 @@ body {
   fill: rgba(104, 162, 202, 0.3);;
 }
 
-.navigation-icon-youtube:hover {  /* < Иконка Ютуба */
+.navigation-icon-youtube:hover {  /* Иконка Ютуба */
   fill: #68A2CA;
 }
 
@@ -782,7 +782,7 @@ body {
   fill: rgba(104, 162, 202, 0.3);;
 }
 
-.footer-tel:hover {   /* < Телефон */
+.footer-tel:hover {   /* Телефон */
   color: #756157;
 }
 
@@ -794,7 +794,7 @@ body {
   color: rgba(117, 97, 87, 0.3);
 }
 
-.html-academy-icon:hover {  /* < Иконка HtmlAcademy */
+.html-academy-icon:hover {  /* Иконка HtmlAcademy */
   fill: #756157;
 }
 

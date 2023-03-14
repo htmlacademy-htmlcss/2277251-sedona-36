@@ -103,6 +103,22 @@ body {
   list-style-type: none;
 }
 
+.navigation-item-search {
+  width: 44px;
+}
+
+.navigation-item-favorites {
+  width: 44px;
+}
+
+.navigation-icon {
+  vertical-align: middle;
+}
+
+.navigation-item-button {
+  margin-left: 24px;
+}
+
 .navigation-link-current {
   position: relative;
 }
@@ -125,7 +141,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0px;
-  width: 268px;
+  width: 272px;
   margin-left: auto;
 }
 
@@ -391,7 +407,7 @@ body {
 
 .advantages-description-bridge {
   width: 230px;
-  height: 63px;
+  min-height: 63px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -431,7 +447,7 @@ body {
   padding: 0;
   text-align: center;
   width: 490px;
-  height: 26px;
+  min-height: 26px;
   color: #333333;
   font-weight: 400;
   font-size: 22px;
@@ -473,7 +489,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   background-color: rgba(131, 179, 211, 0.12);
   text-align: center;
 }
@@ -541,7 +557,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   width: 592px;
-  height: 52px;
+  min-height: 52px;
 }
 
 .button-search-hotels {
@@ -635,7 +651,7 @@ body {
 
 .main-footer {
   width: 1200px;
-  height: 120px;
+  min-height: 120px;
   background-color: #ffffff;
   color: #000000;
 }

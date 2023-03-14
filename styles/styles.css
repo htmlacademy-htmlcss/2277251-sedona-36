@@ -70,8 +70,8 @@ body {
 }
 
 .navigation-logo {
-  z-index: 1;
   margin-right: 28px;
+  margin-bottom: -11px;
 }
 
 .notification-badge {
@@ -86,10 +86,6 @@ body {
   background-color: #68B738;;
   text-align: center;
   line-height: 20px;
-}
-
-.navigation-item-button {
-  margin-bottom: 6px;
 }
 
 .navigation {
@@ -129,7 +125,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0px;
-  max-width: 264px;
+  width: 268px;
   margin-left: auto;
 }
 
@@ -150,11 +146,11 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 8px 34px;
+  padding: 4px 34px;
   border-radius: 4px;
   min-width: 160px;
   min-height: 36px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
@@ -352,7 +348,7 @@ body {
 .advantages-item-first {
   display: flex;
   width: 1200px;
-  height: 385px;
+  min-height: 385px;
   background-color: #81b3d3;
 }
 
@@ -360,7 +356,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   justify-content: center;
   align-items: center;
 }
@@ -372,7 +368,7 @@ body {
   align-items: center;
   background-color: rgba(131, 179, 211, 0.12);;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .advantages-item-evil-bridge {
@@ -380,12 +376,12 @@ body {
   flex-direction: row;
   align-items: flex-start;
   width: 1200px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .advantages-bridge-wrapper {
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -420,7 +416,7 @@ body {
 
 .invitation-title {
   width: 505px;
-  height: 72px;
+  min-height: 72px;
   color: #000000;
   font-weight: 700;
   font-size: 30px;
@@ -459,7 +455,7 @@ body {
   align-items: center;
   background-color: rgba(131, 179, 211, 0.2);
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 .advantages-item-tourists {
   display: flex;
@@ -468,7 +464,7 @@ body {
   align-items: center;
   background-color: rgba(131, 179, 211, 0.12);
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .advantages-item-house {
@@ -490,7 +486,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -501,7 +497,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .advantages-souvenir-wrapper {
@@ -511,7 +507,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 

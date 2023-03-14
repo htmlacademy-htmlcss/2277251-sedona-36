@@ -209,7 +209,7 @@ body {
 }
 
 .hero-img {
-  margin-top: 48px;
+  margin-top: 49px;
   margin-right: 372px;
   margin-left: 371px;
 }
@@ -359,6 +359,10 @@ body {
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.advantages-list-second {
+  flex-wrap: wrap;
 }
 
 .advantages-item-first {

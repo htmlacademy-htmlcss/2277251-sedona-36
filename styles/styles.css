@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
@@ -37,6 +38,7 @@ body {
 }
 
 .page-container {
+  width: 1200px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -62,9 +64,9 @@ body {
 /* HEADER */
 
 .main-header {
+  min-height: 64px;
   background-color: #fff;
   color: #000000;
-  height: 64px;
 }
 
 .navigation-logo {
@@ -93,7 +95,6 @@ body {
 .navigation {
   display: flex;
   width: 1060px;
-  height: 64px;
   margin: 0 auto;
 }
 
@@ -152,6 +153,11 @@ body {
   padding: 8px 34px;
   border-radius: 4px;
   min-width: 160px;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   background-color: #756157;
 }
 
@@ -226,7 +232,6 @@ body {
   font-size: 22px;
   line-height: 26px;
   width: 651px;
-  height: 26px;
 }
 
 /* ADVANTAGES */

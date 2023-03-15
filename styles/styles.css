@@ -975,6 +975,7 @@ body {
 
 .form-input {
   margin-bottom: 4px;
+  margin-left: auto;
   width: 440px;
   border: none;
   border-radius: 4px;

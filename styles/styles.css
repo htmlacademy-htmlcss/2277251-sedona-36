@@ -625,14 +625,14 @@ body {
 }
 
 .field::placeholder {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
 }
 
 .newsletter-button {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   background-color: #82b3d3;
   border: none;
   border-radius: 0px 4px 4px 0px;
@@ -944,7 +944,7 @@ body {
 .tooltip-text {
   background-color: #333333;
   color: #ffffff;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -1020,7 +1020,7 @@ body {
   background-color: #f2f2f2;
   border: none;
   text-align: center;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -1114,7 +1114,7 @@ body {
 .modal-search-button {
   display: inline-block;
   width: 100%;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;

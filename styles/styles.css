@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
@@ -37,6 +38,7 @@ body {
 }
 
 .page-container {
+  width: 1200px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -62,14 +64,14 @@ body {
 /* HEADER */
 
 .main-header {
+  min-height: 64px;
   background-color: #fff;
   color: #000000;
-  height: 64px;
 }
 
 .navigation-logo {
-  z-index: 1;
   margin-right: 28px;
+  margin-bottom: -11px;
 }
 
 .notification-badge {
@@ -81,19 +83,14 @@ body {
   font-weight: 400;
   font-size: 10px;
   border-radius: 50%;
-  background-color: #68B738;;
+  background-color: #68B738;
   text-align: center;
   line-height: 20px;
-}
-
-.navigation-item-button {
-  margin-bottom: 6px;
 }
 
 .navigation {
   display: flex;
   width: 1060px;
-  height: 64px;
   margin: 0 auto;
 }
 
@@ -104,6 +101,22 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.navigation-item-search {
+  width: 44px;
+}
+
+.navigation-item-favorites {
+  width: 44px;
+}
+
+.navigation-icon {
+  vertical-align: middle;
+}
+
+.navigation-item-button {
+  margin-left: 24px;
 }
 
 .navigation-link-current {
@@ -128,7 +141,7 @@ body {
   display: flex;
   align-items: center;
   padding: 0px;
-  max-width: 264px;
+  width: 272px;
   margin-left: auto;
 }
 
@@ -149,9 +162,14 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 8px 34px;
+  padding: 4px 34px;
   border-radius: 4px;
   min-width: 160px;
+  min-height: 36px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   background-color: #756157;
 }
 
@@ -191,7 +209,7 @@ body {
 }
 
 .hero-img {
-  margin-top: 48px;
+  margin-top: 49px;
   margin-right: 372px;
   margin-left: 371px;
 }
@@ -226,7 +244,6 @@ body {
   font-size: 22px;
   line-height: 26px;
   width: 651px;
-  height: 26px;
 }
 
 /* ADVANTAGES */
@@ -344,10 +361,14 @@ body {
   margin-left: auto;
 }
 
+.advantages-list-second {
+  flex-wrap: wrap;
+}
+
 .advantages-item-first {
   display: flex;
   width: 1200px;
-  height: 385px;
+  min-height: 385px;
   background-color: #81b3d3;
 }
 
@@ -355,7 +376,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   justify-content: center;
   align-items: center;
 }
@@ -367,7 +388,7 @@ body {
   align-items: center;
   background-color: rgba(131, 179, 211, 0.12);;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .advantages-item-evil-bridge {
@@ -375,12 +396,12 @@ body {
   flex-direction: row;
   align-items: flex-start;
   width: 1200px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .advantages-bridge-wrapper {
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -390,7 +411,7 @@ body {
 
 .advantages-description-bridge {
   width: 230px;
-  height: 63px;
+  min-height: 63px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -415,7 +436,7 @@ body {
 
 .invitation-title {
   width: 505px;
-  height: 72px;
+  min-height: 72px;
   color: #000000;
   font-weight: 700;
   font-size: 30px;
@@ -430,7 +451,7 @@ body {
   padding: 0;
   text-align: center;
   width: 490px;
-  height: 26px;
+  min-height: 26px;
   color: #333333;
   font-weight: 400;
   font-size: 22px;
@@ -454,7 +475,7 @@ body {
   align-items: center;
   background-color: rgba(131, 179, 211, 0.2);
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 .advantages-item-tourists {
   display: flex;
@@ -463,7 +484,7 @@ body {
   align-items: center;
   background-color: rgba(131, 179, 211, 0.12);
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .advantages-item-house {
@@ -472,7 +493,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   background-color: rgba(131, 179, 211, 0.12);
   text-align: center;
 }
@@ -485,7 +506,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -496,7 +517,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
 }
 
 .advantages-souvenir-wrapper {
@@ -506,7 +527,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -540,7 +561,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   width: 592px;
-  height: 52px;
+  min-height: 52px;
 }
 
 .button-search-hotels {
@@ -596,7 +617,7 @@ body {
 
 .field {
   font-size: 18px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   width: 428px;
   border: none;
   border-radius: 4px 0px 0px 4px;
@@ -604,15 +625,15 @@ body {
 }
 
 .field::placeholder {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
 }
 
 .newsletter-button {
-  font-family: "PT Sans";
-  background-color: #82B3D3;
+  font-family: "PT Sans", sans-serif;
+  background-color: #82b3d3;
   border: none;
   border-radius: 0px 4px 4px 0px;
   padding: 8px 50px;
@@ -634,7 +655,7 @@ body {
 
 .main-footer {
   width: 1200px;
-  height: 120px;
+  min-height: 120px;
   background-color: #ffffff;
   color: #000000;
 }
@@ -645,7 +666,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 1060px;
-  height: 50px;
+  min-height: 50px;
   padding: 40px 70px 30px 70px;
 }
 
@@ -665,7 +686,7 @@ body {
 
 /* Состояния элементов */
 
-.navigation-link:hover {   /* < Элементы главной навигации */
+.navigation-link:hover {   /* Элементы главной навигации */
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -677,7 +698,7 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.header-button:hover {  /*  < Кнопка Хочу Сюда */
+.header-button:hover {  /*  Кнопка Хочу Сюда */
   background-color: #615048;
 }
 
@@ -690,7 +711,7 @@ body {
   color:rgba(255, 255, 255, 0.3);
 }
 
-.button-search-hotels:hover {  /*  < Кнопка "Поиск гостиницы в Седоне" */
+.button-search-hotels:hover {  /*  Кнопка "Поиск гостиницы в Седоне" */
   background-color: #615048;
 }
 
@@ -703,21 +724,36 @@ body {
   color:rgba(255, 255, 255, 0.3);
 }
 
-.field:disabled {
-  background-color: #dcdcdc;
-
+.field:hover {
+  outline: 2px solid #82b3d3;
 }
 
-.newsletter-button:hover {   /*  < Голубая кнопка подписаться  */
-  background-color: #68A2CA;
+.field:focus {
+  outline: 2px solid #82b3d3;
+}
+
+.field:disabled {
+  background-color: #dcdcdc;
+}
+
+.field:invalid {
+  box-shadow: none;
+}
+
+.field:focus:invalid {
+  border-color: #ea5454;
+}
+
+.newsletter-button:hover {   /*  Голубая кнопка подписаться  */
+  background-color: #68a2ca;
 }
 
 .newsletter-button:focus{
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .newsletter-button:active {
-  background-color:#82B3D3;
+  background-color:#82b3d3;
 }
 
 .button-subscribe-text:active {
@@ -729,43 +765,43 @@ body {
   cursor: auto;
 }
 
-.navigation-icon-vk:hover {  /* < Иконка Вконтакте */
-  fill: #68A2CA;
+.navigation-icon-vk:hover {  /* Иконка Вконтакте */
+  fill: #68a2ca;
 }
 
 .navigation-icon-vk:focus {
-  fill:#68A2CA;
+  fill:#68a2ca;
 }
 
 .navigation-icon-vk:active {
   fill: rgba(104, 162, 202, 0.3);
 }
 
-.navigation-icon-telegram:hover {  /* < Иконка Телеграм */
-  fill: #68A2CA;
+.navigation-icon-telegram:hover {  /* Иконка Телеграм */
+  fill: #68a2ca;
 }
 
 .navigation-icon-telegram:focus {
-  fill:#68A2CA;
+  fill:#68a2ca;
 }
 
 .navigation-icon-telegram:active {
   fill: rgba(104, 162, 202, 0.3);;
 }
 
-.navigation-icon-youtube:hover {  /* < Иконка Ютуба */
-  fill: #68A2CA;
+.navigation-icon-youtube:hover {  /* Иконка Ютуба */
+  fill: #68a2ca;
 }
 
 .navigation-icon-youtube:focus {
-  fill: #68A2CA;
+  fill: #68a2ca;
 }
 
 .navigation-icon-youtube:active {
   fill: rgba(104, 162, 202, 0.3);;
 }
 
-.footer-tel:hover {   /* < Телефон */
+.footer-tel:hover {   /* Телефон */
   color: #756157;
 }
 
@@ -777,7 +813,7 @@ body {
   color: rgba(117, 97, 87, 0.3);
 }
 
-.html-academy-icon:hover {  /* < Иконка HtmlAcademy */
+.html-academy-icon:hover {  /* Иконка HtmlAcademy */
   fill: #756157;
 }
 
@@ -811,7 +847,7 @@ body {
   display: block;
 }
 
-.modal-container {
+.modal-container {  /* Модальное окно */
   position: fixed;
   top: 0;
   left: 0;
@@ -819,7 +855,6 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
-  z-index: 2;
   display: none;
 }
 
@@ -889,7 +924,7 @@ body {
   padding: 0;
   margin: 0;
   display: block;
-  background-color: #83B3D3;
+  background-color: #83b3d3;
   width: 26px;
   height: 26px;
   border-radius: 50%;
@@ -909,7 +944,7 @@ body {
 .tooltip-text {
   background-color: #333333;
   color: #ffffff;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -955,6 +990,7 @@ body {
 
 .form-input {
   margin-bottom: 4px;
+  margin-left: auto;
   width: 440px;
   border: none;
   border-radius: 4px;
@@ -984,7 +1020,7 @@ body {
   background-color: #f2f2f2;
   border: none;
   text-align: center;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -1078,12 +1114,12 @@ body {
 .modal-search-button {
   display: inline-block;
   width: 100%;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   padding: 18px 77px;
-  background-color: #83B3D3;
+  background-color: #83b3d3;
   min-height: 60px;
   border-radius: 10px;
   text-align: center;
@@ -1108,13 +1144,102 @@ body {
 }
 
 .modal-search-button:hover {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .modal-search-button:focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .modal-search-button:active .modal-button-text {
   opacity: 0.3;
 }
+
+/* Состояния - Модальное окно */
+
+.form-input:hover {
+  outline: 2px solid #83b3d3;
+}
+
+.form-input:focus {
+  outline: 2px solid #83b3d3;
+}
+
+.form-input:disabled {
+  background-color: #dcdcdc;
+}
+
+.form-input:invalid {
+  box-shadow: none;
+}
+
+.form-input:focus:invalid {
+  border-color: #ea5454;
+}
+
+.form-input::placeholder {
+  color: #dbdbdb;
+  opacity: 1;
+}
+
+.minus:hover {
+  background-color: #c0c0c0;
+}
+
+.minus:focus {
+  background-color: #c0c0c0;
+}
+
+.minus:active {
+  background-color: #dcdcdc;
+}
+
+.plus:hover {
+  background-color: #c0c0c0;
+}
+
+.plus:focus {
+  background-color: #c0c0c0;
+}
+
+.plus:active {
+  background-color: #dcdcdc;
+}
+
+.adults-input:hover {
+  color: #83b3d3;
+}
+
+.adults-input:focus {
+  color: #83b3d3;
+}
+
+.adults-input:active {
+  background-color: #dcdcdc;
+}
+
+.children-input:hover {
+  color: #83B3D3;
+}
+
+.children-input:focus {
+  color: #83B3D3;
+}
+
+.children-input:active {
+  background-color: #dcdcdc;
+}
+
+.modal-close-button:hover {
+  background-color: #c0c0c0;
+}
+
+.modal-close-button:focus {
+  background-color: #c0c0c0;
+}
+
+.modal-close-button:active {
+  background-color: #dcdcdc;
+}
+
+

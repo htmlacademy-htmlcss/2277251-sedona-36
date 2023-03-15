@@ -832,7 +832,7 @@ body {
   display: block;
 }
 
-.modal-container {
+.modal-container {  /* Модальное окно */
   position: fixed;
   top: 0;
   left: 0;
@@ -1139,3 +1139,92 @@ body {
 .modal-search-button:active .modal-button-text {
   opacity: 0.3;
 }
+
+/* Состояния - Модальное окно */
+
+.form-input:hover {
+  outline: 2px solid #83B3D3;
+}
+
+.form-input:focus {
+  outline: 2px solid #83B3D3;
+}
+
+.form-input:disabled {
+  background-color: #dcdcdc;
+}
+
+.form-input:invalid {
+  box-shadow: none;
+}
+
+.form-input:focus:invalid {
+  border-color: #ea5454;
+}
+
+.form-input::placeholder {
+  color: #dbdbdb;
+  opacity: 1;
+}
+
+.minus:hover {
+  background-color: #c0c0c0;
+}
+
+.minus:focus {
+  background-color: #c0c0c0;
+}
+
+.minus:active {
+  background-color: #dcdcdc;
+}
+
+.plus:hover {
+  background-color: #c0c0c0;
+}
+
+.plus:focus {
+  background-color: #c0c0c0;
+}
+
+.plus:active {
+  background-color: #dcdcdc;
+}
+
+.adults-input:hover {
+  color: #83B3D3;
+}
+
+.adults-input:focus {
+  color: #83B3D3;
+}
+
+.adults-input:active {
+  background-color: #dcdcdc;
+}
+
+.children-input:hover {
+  color: #83B3D3;
+}
+
+.children-input:focus {
+  color: #83B3D3;
+}
+
+.children-input:active {
+  background-color: #dcdcdc;
+}
+
+.modal-close-button:hover {
+  background-color: #c0c0c0;
+}
+
+.modal-close-button:focus {
+  background-color: #c0c0c0;
+}
+
+.modal-close-button:active {
+  background-color: #dcdcdc;
+}
+
+

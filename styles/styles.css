@@ -724,9 +724,24 @@ body {
   color:rgba(255, 255, 255, 0.3);
 }
 
+.field:hover {
+  outline: 2px solid #82B3D3;
+}
+
+.field:focus {
+  outline: 2px solid #82B3D3;
+}
+
 .field:disabled {
   background-color: #dcdcdc;
+}
 
+.field:invalid {
+  box-shadow: none;
+}
+
+.field:focus:invalid {
+  border-color: #ea5454;
 }
 
 .newsletter-button:hover {   /*  Голубая кнопка подписаться  */

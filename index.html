@@ -332,22 +332,22 @@
             <div class="form-wrapper">
               <div class="arrival-wrapper">
                 <label class="form-label" for="arrival-date">Дата Заезда:</label>
-                <input class="form-input" type="text" name="arrival-date" id="arrival-date" value="27 апреля 2020" placeholder="Введите Дату Заезда">
+                <input class="form-input" type="text" name="arrival-date" id="arrival-date" value="27 апреля 2020" placeholder="Введите Дату Заезда" required>
                 <p class="form-error-text">Мы не можем отправить вас в прошлое.</p>
               </div>
               <div class="departure-wrapper">
                 <label class="form-label" for="departure-date">Дата Выезда:</label>
-                <input class="form-input" type="text" name="departure-date" id="departure-date" value="1 сентября 2023" placeholder="Введите Дату Выезда">
+                <input class="form-input" type="text" name="departure-date" id="departure-date" value="1 сентября 2023" placeholder="Введите Дату Выезда" required>
                 <p class="form-success-text">На эти даты есть свободные номера. Пока есть.</p>
               </div>
               <div class="inputs-wrapper">
                 <label class="form-label" for="adults-number">Взрослые:</label>
                 <div class="adults-input-wrapper">
                   <button class="minus" type="button"></button>
-                  <input class="adults-input" type="number" value="2" name="adults-number" id="adults-number">
+                  <input class="adults-input" type="number" value="2" name="adults-number" id="adults-number" required>
                   <button class="plus" type="button"></button>
                 </div>
-                <span class="form-label-children quantity-form-date">
+                <span class="form-label-children">
                   <label class="form-label-children" for="children-number">Дети:</label>
                   <span class="tooltip">
                     <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date">
@@ -361,7 +361,7 @@
                 </span>
                 <div class="children-input-wrapper">
                   <button class="minus" type="button"></button>
-                  <input class="children-input" type="number" value="2" name="children-number" id="children-number">
+                  <input class="children-input" type="number" value="2" name="children-number" id="children-number" required>
                   <button class="plus" type="button"></button>
                 </div>
               </div>

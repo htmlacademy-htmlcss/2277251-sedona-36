@@ -745,11 +745,11 @@ body {
 }
 
 .newsletter-button:hover {   /*  Голубая кнопка подписаться  */
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .newsletter-button:focus{
-  background-color: #68a2Ca;
+  background-color: #68a2ca;
 }
 
 .newsletter-button:active {

@@ -662,7 +662,7 @@ body {
 
 .main-footer-container {
   display: grid;
-  grid-template-columns: 142px 331px 115px;
+  grid-template-columns: 142px 340px 115px;
   justify-content: space-between;
   align-items: center;
   width: 1060px;

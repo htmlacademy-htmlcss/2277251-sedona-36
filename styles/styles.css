@@ -615,6 +615,7 @@ body {
 }
 
 .field {
+  margin: 0;
   font-size: 18px;
   background-color: #f2f2f2;
   width: 428px;
@@ -631,6 +632,7 @@ body {
 }
 
 .newsletter-button {
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   background-color: #82b3d3;
   border: none;

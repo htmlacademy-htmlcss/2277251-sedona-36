@@ -183,15 +183,14 @@ body {
 .main-index {
   color: #ffffff;
   background-color: #ffffff;
-  background-image: url("../images/index-background.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
 }
 
 .hero {
   width: 1200px;
   height: 485px;
-  background-image: url("../images/divider-main.svg");
+  background-color: rgba(131, 179, 211, 0.5);
+  background-image: url("../images/divider-main.svg"), url("../images/index-background.jpg");
+  background-size: auto, 100% auto;
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -616,6 +615,7 @@ body {
 }
 
 .field {
+  margin: 0;
   font-size: 18px;
   background-color: #f2f2f2;
   width: 428px;
@@ -632,6 +632,7 @@ body {
 }
 
 .newsletter-button {
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   background-color: #82b3d3;
   border: none;
@@ -662,7 +663,7 @@ body {
 
 .main-footer-container {
   display: grid;
-  grid-template-columns: 142px 331px 115px;
+  grid-template-columns: 142px 340px 115px;
   justify-content: space-between;
   align-items: center;
   width: 1060px;
